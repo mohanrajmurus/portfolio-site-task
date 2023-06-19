@@ -1,0 +1,72 @@
+.about--content{
+    @include flex-b-c;
+    margin: 50px 0;
+    .content{
+        @include flex-col-s;
+        gap: 30px;
+        h1{
+            font-size: 2.5rem;
+            align-self: center;
+        }
+        p{
+            font-size: 1.2rem;
+            text-align: justify;
+            line-height: 1.5;
+        }
+    }
+    .about--image{
+        img{
+            width: 500px;
+            height: 400px;
+        }
+    }
+}
+.skill--sets{
+    @include flex-col-s;
+    gap: 30px;
+    margin: 100px 0;
+    h1{
+        font-size: 2.5rem;
+        align-self: center;
+    }
+    .skill--set{
+        align-self: center;
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        
+        img{
+            width: 150px;
+            border: 2px solid $text-imp;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        img:hover{
+            transform: scale(1.2);
+            transition: transform 1s;
+        }
+    }
+}
+
+@media(max-width:992px){
+    body{
+        .container{
+            padding: 20px;
+            .about--content{
+                flex-direction: column;
+                align-items: flex-start;
+                .about--image{
+                    align-self: center;
+                }
+            }
+            .skill--sets{
+                width: 100%;
+                h1{
+                    align-self: flex-start;
+                }
+            }
+            
+        }
+    }
+}
