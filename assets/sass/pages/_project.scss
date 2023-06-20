@@ -42,6 +42,10 @@
                 }
             }
         }
+        .project:hover{
+            transform: scale(1.04);
+            transition: transform 1s;
+        }
     }
 }
 @media (max-width:997px){
