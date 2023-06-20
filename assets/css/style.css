@@ -323,6 +323,9 @@ body .container .footer .social--icons a {
   body .container .skill--sets h1 {
     align-self: flex-start;
   }
+  body .container .skill--sets .skill--set {
+    justify-content: center;
+  }
 }
 .projects--container .title {
   font-size: 2rem;
@@ -390,7 +393,7 @@ body .container .footer .social--icons a {
     justify-content: center;
   }
   .projects--container .projects .project {
-    width: 50%;
+    width: 80%;
   }
 }
 
