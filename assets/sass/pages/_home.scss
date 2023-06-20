@@ -68,7 +68,7 @@ body{
                         margin-bottom: 20px;
                     }
                     p{
-                        font-size: 1.4rem;
+                        font-size: 1.2rem;
                         line-height: 1.5;
                     }
                 }
@@ -92,6 +92,9 @@ body{
                     @include flex-b-c;
                     gap: 20px;
                     cursor: pointer;
+                    a{
+                        color: inherit;
+                    }
                 }
             }
         }
@@ -109,6 +112,9 @@ body{
                 @include flex-b-c;
                 gap: 10px;
                 cursor: pointer;
+                a{
+                    color: inherit;
+                }
             }
         }
     }

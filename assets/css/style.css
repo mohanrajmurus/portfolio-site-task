@@ -133,7 +133,7 @@ body .container .main--content .intro .title {
   margin-bottom: 20px;
 }
 body .container .main--content .intro p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 body .container .main--content .profile--image img {
@@ -159,6 +159,9 @@ body .container .main .contact--links .social--icons {
   gap: 20px;
   cursor: pointer;
 }
+body .container .main .contact--links .social--icons a {
+  color: inherit;
+}
 body .container .footer {
   margin-top: 40px;
   display: flex;
@@ -178,6 +181,9 @@ body .container .footer .social--icons {
   align-items: center;
   gap: 10px;
   cursor: pointer;
+}
+body .container .footer .social--icons a {
+  color: inherit;
 }
 
 .wel--icon {
