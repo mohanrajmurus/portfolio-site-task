@@ -99,10 +99,8 @@ body .container .main .banner {
 }
 body .container .main .banner--content {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: start;
   gap: 20px;
 }
 body .container .main .banner--content h1 {
@@ -124,10 +122,8 @@ body .container .main--content {
 }
 body .container .main--content .intro {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: start;
   gap: 30px;
 }
 body .container .main--content .intro .title {
@@ -146,9 +142,9 @@ body .container .main--content .profile--image img {
 }
 body .container .main .contact--links {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   flex-direction: column;
+  align-items: start;
+  align-items: center;
   gap: 30px;
   margin: 50px 0;
 }
