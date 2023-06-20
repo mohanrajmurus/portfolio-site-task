@@ -4,6 +4,7 @@ body{
     .container{
         width: 80%;
         margin: 10px auto;
+        scroll-behavior: smooth;
         .imp-text{
             color: $text-imp;
         }
@@ -123,9 +124,11 @@ body{
             width: 100%;
             margin: 10px;
             .header{
+                height: 20vh;
                 flex-direction: column;
                 gap: 10px;
-                padding: 10px 0;
+                padding: 20px 0;
+                top: 0;
             }
             .main{
                 margin-top: 50px;
