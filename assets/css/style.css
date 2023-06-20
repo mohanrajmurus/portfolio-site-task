@@ -183,7 +183,6 @@ body .container .footer .social--icons {
 .wel--icon {
   animation: wave 2s infinite;
   display: inline-block;
-  transform-origin: 70% 70%;
 }
 
 @keyframes wave {
