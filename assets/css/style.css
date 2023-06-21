@@ -95,6 +95,26 @@ body .container .header--nav__bar .nav--item:hover {
 body .container .header .mobile--menu {
   display: none;
 }
+body .container .header .side--menu {
+  width: 70%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 40px;
+  position: absolute;
+  right: -20px;
+  top: -30px;
+  background-color: #3da9fc;
+  z-index: 3;
+}
+body .container .header .side--menu a {
+  color: #fffffe;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-left: 20%;
+}
 body .container .header .close--menu {
   display: none;
 }
@@ -263,26 +283,6 @@ body .container .footer .social--icons a {
   body .container .header {
     height: 10vh;
     flex-direction: row;
-  }
-  body .container .header .side--menu {
-    width: 70%;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    gap: 40px;
-    position: absolute;
-    right: -20px;
-    top: -30px;
-    background-color: #3da9fc;
-    z-index: 3;
-  }
-  body .container .header .side--menu a {
-    color: #fffffe;
-    font-size: 1.4rem;
-    font-weight: 300;
-    margin-left: 20%;
   }
   body .container .header .close {
     display: block;
